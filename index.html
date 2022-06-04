@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Catalogue</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+       <meta charset="UTF-8">  
+       <link rel="Stylesheet" href="style.css">
+       <script src="Script.js" defer></script>
+    </head>
+    <body>
+        <a href="aboutme.html" target="_blank">About me</a>
+        <div class="search-wrapper">
+            <label for="search">Search Products</label>
+            <input type="search" id="search" data-search>
+          </div>
+          <div class="user-cards" data-user-cards-container></div>
+          <template data-user-template>
+            <div class="card">
+              <div class="header" data-header></div>
+              <div class="body" data-body></div>
+               <img class = "img" data-img></img>
+               <div class = "price" data-price></div> 
+            </div>
+          </template>
+    </body>
+</html>
